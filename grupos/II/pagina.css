@@ -1,0 +1,45 @@
+body {
+	background: rgba(105,105,105, 0.6);
+}
+
+div#corpo {
+	width: 900px;
+	height: 1000px;
+	margin-left: 15%;
+	background: rgba(211,211,211,0.6);
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px 10px 10px 10px;
+
+}
+
+img#home {
+	position: absolute;
+	margin-left: 230px;
+}
+/*FORMATAçÃO DO MENU*/
+a {
+	text-decoration: none;
+	color: black;
+}
+header#menu li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+header#menu ul {
+	margin-left: 170px;
+}
+
+header#menu li:hover {
+	background-color: #606060;
+	text-decoration: underline;
+	border-radius: 3px;
+	transition-duration: 1s;
+}
+
+img {
+	margin-left: 1150px;
+	position: absolute;
+}
